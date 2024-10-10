@@ -1,0 +1,55 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #60daff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: rgb(221, 54, 54);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 40px; /* Ukuran foto profil */
+    height: 60px; /* Ukuran foto profil */
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+    max-width: 100%; /* Agar gambar responsif pada layar kecil */
+    height: auto; /* Tinggi otomatis untuk menjaga proporsi */
+}
+
+h1 {
+    margin: 10px 0 5px;
+}
+
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
